@@ -1,0 +1,829 @@
+/* 焦点图部分表单 start*/
+.apply_box>.apply_form{
+	right: 0;
+	top: 50%;
+}
+/* 焦点图部分表单 end*/
+#wrap{
+	min-width: 1250px;
+	overflow: hidden;
+}
+.newest_icon_bar{
+	background: #FFF;
+}
+.icon_bar{
+	width:1247px;
+	padding:40px 0;
+	margin:0 auto;
+	overflow: hidden;
+}
+.icon_bar li{
+	float: left;
+	width:100px;
+	height: 100px;
+	margin-right: 43px;
+	background-image:url("../images/newest_icon.png");
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: .2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: .2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: 1s;
+	-ms-animation-delay: .2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-delay: .2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+
+	-webkit-transform-origin: top center;
+	-moz-transform-origin: top center;
+	-ms-transform-origin: top center;
+	-o-transform-origin: top center;
+	transform-origin: top center;
+	-webkit-animation-name: swing;
+	-moz-animation-name: swing;
+	-ms-animation-name: swing;
+	-o-animation-name: swing;
+	animation-name: swing;
+
+}
+.icon_bar li:hover{
+	-webkit-animation-name: tada;
+	-moz-animation-name: tada;
+	-ms-animation-name: tada;
+	-o-animation-name: tada;
+	animation-name: tada;
+}
+/*定义动画*/
+@-webkit-keyframes swing {
+	20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; }
+	20% { -webkit-transform: rotate(15deg); }	
+	40% { -webkit-transform: rotate(-10deg); }
+	60% { -webkit-transform: rotate(5deg); }	
+	80% { -webkit-transform: rotate(-5deg); }	
+	100% { -webkit-transform: rotate(0deg); }
+}
+
+@-moz-keyframes swing {
+	20% { -moz-transform: rotate(15deg); }	
+	40% { -moz-transform: rotate(-10deg); }
+	60% { -moz-transform: rotate(5deg); }	
+	80% { -moz-transform: rotate(-5deg); }	
+	100% { -moz-transform: rotate(0deg); }
+}
+
+@-ms-keyframes swing {
+	20% { -ms-transform: rotate(15deg); }	
+	40% { -ms-transform: rotate(-10deg); }
+	60% { -ms-transform: rotate(5deg); }	
+	80% { -ms-transform: rotate(-5deg); }	
+	100% { -ms-transform: rotate(0deg); }
+}
+
+@-o-keyframes swing {
+	20% { -o-transform: rotate(15deg); }	
+	40% { -o-transform: rotate(-10deg); }
+	60% { -o-transform: rotate(5deg); }	
+	80% { -o-transform: rotate(-5deg); }	
+	100% { -o-transform: rotate(0deg); }
+}
+
+@keyframes swing {
+	20% { transform: rotate(15deg); }	
+	40% { transform: rotate(-10deg); }
+	60% { transform: rotate(5deg); }	
+	80% { transform: rotate(-5deg); }	
+	100% { transform: rotate(0deg); }
+}
+
+
+@-webkit-keyframes tada {
+	0% {-webkit-transform: scale(1);}	
+	10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
+	100% {-webkit-transform: scale(1) rotate(0);}
+}
+
+@-moz-keyframes tada {
+	0% {-moz-transform: scale(1);}	
+	10%, 20% {-moz-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-moz-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-moz-transform: scale(1.1) rotate(-3deg);}
+	100% {-moz-transform: scale(1) rotate(0);}
+}
+
+@-ms-keyframes tada {
+	0% {-ms-transform: scale(1);}	
+	10%, 20% {-ms-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-ms-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-ms-transform: scale(1.1) rotate(-3deg);}
+	100% {-ms-transform: scale(1) rotate(0);}
+}
+
+@-o-keyframes tada {
+	0% {-o-transform: scale(1);}	
+	10%, 20% {-o-transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {-o-transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {-o-transform: scale(1.1) rotate(-3deg);}
+	100% {-o-transform: scale(1) rotate(0);}
+}
+
+@keyframes tada {
+	0% {transform: scale(1);}	
+	10%, 20% {transform: scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
+	40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
+	100% {transform: scale(1) rotate(0);}
+}
+/*定义动画结束*/
+.newest_icon1{
+	background-position: 0% 0%;
+}
+.newest_icon2{
+	background-position: -110px 0%;
+}
+.newest_icon3{
+	background-position: -220px 0%;
+}
+.newest_icon4{
+	background-position: -330px 0%;
+}
+.newest_icon5{
+	background-position: 0% -110px;
+}
+.newest_icon6{
+	background-position: -110px -110px;
+}
+.newest_icon7{
+	background-position: -220px -110px;
+}
+.newest_icon8{
+	background-position: -330px -110px;
+}
+.newest_icon9{
+	background-position:0% -220px;
+}
+.icon_bar li.newest_icon9{
+	margin-right: 0;
+}
+/*中间对比图*/
+.areachart{
+	width:1250px;
+	height: 775px;
+	background: transparent url("../images/PK.jpg") no-repeat scroll 0 0;
+	margin: 0 auto;
+}
+/*最新申请装修服务*/
+.newest_entry{
+	width:1250px;
+	padding:40px 0;
+	margin: 0 auto;
+}
+.process_top{
+	overflow:hidden;
+	width: 1250px;
+	margin: 40px auto 20px auto;
+}
+.process_top h1{
+	float:left;
+	font-size: 30px;
+	color:#333;
+}
+.process_top h1 span{
+	margin-left: 10px;
+	font-size: 11px;
+	color:#808080;
+}
+.process_top a{
+	font-size: 14px;
+	float:right;
+	border: solid 1px #e63232;
+	color:#e63232;
+	width: 96px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+.process_top a:hover{
+	background: #e63232;
+	color: #fff;
+	border: solid 1px #d62f2f;
+}
+/*顶部广告位*/
+.newest_top_adv{
+	min-width: 1250px;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+.banner_wrap{
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	top:-9px;
+}
+.img_wrap{
+	position: absolute;
+}
+.img_wrap img{
+	display: block;
+	border:none 0;
+	box-shadow:inset 0 0 10px #0CC;
+}
+.banner_top_bg{
+	width:100%;
+	height: 10px;
+	background:url("../images/newest_top_gb.png");
+	background-repeat: repeat;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/*最新申请装修服务*/
+.newest_apply_form{
+	width:1248px;
+	height: 451px;
+	border: solid 1px #eee;
+	margin:0 auto 40px;
+}
+.newest_left_form{
+	float:left;
+	width:717px;
+	height: 439px;
+	border-right: solid 1px #eee;
+	padding:6px 19px;
+}
+.form_title{
+	overflow: hidden;
+	border-bottom: dotted 1px #e8e8e8;
+	padding:11px 0 12px 0;
+}
+.form_title span{
+	float: left;
+	width:20%;
+	font-size: 14px;
+	color: #999;
+	text-align: left;
+}
+.form_detail{
+	width:717px;
+	height: 399px;
+	overflow: hidden;
+	position: relative;
+}
+.scroll_body{
+	width:717px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.scroll_body li{
+	overflow: hidden;
+	border-bottom: dotted 1px #e8e8e8;
+	padding:11px 0 12px 0;
+}
+.scroll_body span{
+	float: left;
+	width:20%;
+	font-size: 14px;
+	color: #999;
+	text-align: left;
+	overflow: hidden;
+}
+.first_row span{
+	color: #e63232;
+}
+.scroll_body li.last_row{
+	border-bottom: none;
+}
+.right_avatar_show{
+	width:454px;
+	height: 416px;
+	position: relative;
+	overflow: hidden;
+}
+.right_avatar_body{
+	width:454px;
+	position: absolute;
+	left: 19px;
+	top: 19px;
+}
+.right_avatar{
+	height: 417px;
+	overflow: hidden;
+}
+.newest_right_avatar{
+	position: relative;
+	float:right;
+	padding:19px;
+	width:454px;
+	height:413px;
+}
+.avatar_top{
+	overflow: hidden;
+}
+.avatar_top li{
+	float: left;
+}
+.avatar_top li.avatar{
+	width:110px;
+	height: 110px;
+	overflow: hidden;
+}
+.avatar_top li.date{
+	float: right;
+	font-size: 12px;
+	color:#999;
+}
+.star_bpx{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.star_bpx span.name{
+	font-size: 18px;
+	color:#e63232;
+}
+.star_bpx i.star{
+	display: inline-block;
+	width:90px;
+	height: 13px;
+	background: url("../images/newest_icon.png") no-repeat scroll -100px -210px;
+}
+.star_bpx em.describe{
+	display: block;
+	font-size: 12px;
+	color: #555;
+	margin-top: 17px;
+}
+.content_detail{
+	width:398px;
+	height: 102px;
+	overflow: hidden;
+	padding: 0 28px;
+	margin-top: 29px;
+	position: relative;
+}
+.content_detail i.left_icon{
+	display: block;
+	width:18px;
+	height: 16px;
+	background: url("../images/newest_icon.png") no-repeat scroll -100px -230px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.content_detail .content{
+	color:#777777;
+	font-size: 12px;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+.content_detail i.right_icon{
+	display: block;
+	width:18px;
+	height: 16px;
+	background: url("../images/newest_icon.png") no-repeat scroll -120px -230px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.house_title{
+	font-size: 18px;
+	color: #333;
+	padding-left:29px;
+	background: url("../images/newest_icon.png") no-repeat scroll -100px -250px;
+	margin-top: 30px;
+}
+.scenery_img{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.scenery_img li{
+	float:left;
+	width:138px;
+	height:104px;
+	margin-right: 20px;
+}
+.scenery_img li.last_img{
+	margin-right: 0;
+}
+/*全网装修业主最满意的省钱装修服务*/
+.customer_show_wrap{
+	width:100%;
+	height: 712px;
+	padding-top: 38px;
+}
+.customer_show_wrap h1{
+	text-align: center;
+	font-weight:normal;
+	font-size: 30px;
+	color: #4b4b49;
+}
+.customer_show_wrap h3{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 29px 0;
+}
+.customer_show_wrap h3 strong{
+	font-size: 16px;
+	color: #e73f3e;
+}
+.customer_show_box{
+	width:1250px;
+	height:550px;
+	margin:0 auto;
+	position: relative;
+}
+li.Ms_ma{
+	position: relative;
+	width:240px;
+	height: 362px;
+	left: 0;
+	top:0;
+	overflow: hidden;
+}
+.customer_show_box .pos_box{
+	width:100%;
+	height: 67px;
+	padding: 12px 0;
+	position: absolute;
+	bottom:-91px;
+	left:0;
+	background: url("../images/bg1.png") repeat scroll 0 0;
+
+}
+.customer_show_box .pos_box h1{
+	font-size: 16px;
+	color:#FFF;
+	padding: 0 15px;
+	text-align: left;
+}
+.customer_show_box .pos_box p{
+	margin:8px auto 0;
+	color:#FFF;
+	padding: 0 15px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: left;
+}
+li.Mr_jack{
+	position: relative;
+	width:240px;
+	height: 175px;
+	left: 252px;
+	top:-362px;
+	overflow: hidden;
+}
+li.Ms_zhao{
+	position: relative;
+	width:240px;
+	height: 175px;
+	left: 252px;
+	top:-350px;
+	overflow: hidden;
+}
+li.Ms_li{
+	position: relative;
+	width:492px;
+	height: 175px;
+	left: 504px;
+	top: -712px;
+	overflow: hidden;
+}
+li.Ms_zhang{
+	position: relative;
+	width:240px;
+	height: 362px;
+	left: 1008px;
+	top: -887px;
+	overflow: hidden;
+}
+li.Ms_lu{
+	position: relative;
+	width:492px;
+	height: 175px;
+	left: 0;
+	top: -875px;
+	overflow: hidden;
+}
+li.Mr_zhou{
+	position: relative;
+	width:240px;
+	height: 362px;
+	left:504px;
+	top: -1237px ;
+	overflow: hidden;
+}
+li.Mr_qi{
+	position: relative;
+	width:240px;
+	height: 175px;
+	left: 756px;
+	top: -1599px;
+	overflow: hidden;
+}
+li.Ms_jiang{
+	position: relative;
+	width:492px;
+	height: 175px;
+	left: 756px;
+	top: -1587px;
+	overflow: hidden;
+}
+/*装修招标知识普及*/
+.popularity_wrap{
+	width:1250px;
+	margin:0 auto;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.left_wrap{
+	float:left;
+	width:725px;
+}
+.right_wrap{
+	float:right;
+	width:494px;
+}
+.popularity_title{
+	width:100%;
+	font-size: 24px;
+	color: #333333;
+	padding:12px 0;
+	border-bottom: solid 1px #e6e6e6;
+	background:transparent url("../images/bg_line.png") no-repeat scroll left bottom;
+}
+.detail_title{
+	color: #555;
+	font-size: 14px;
+	margin: 20px 0 4px 0;
+}
+.detail_title strong{
+	color:#e63232;
+	font-weight: bold;
+}
+.detail_content h6{
+	font-size: 12px;
+	line-height: 21px;
+	color: #888888;
+	text-indent: 24px;
+	height: 40px;
+	overflow: hidden;
+}
+.helpline{
+	margin-top: 25px;
+}
+.helpline i{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: transparent url("../images/home_icos.png") no-repeat scroll -150px -20px;
+	vertical-align: middle;
+}
+.helpline strong{
+	display: inline-block;
+	font-weight: bold;
+	color:#e63232;
+}
+/*免费获取设计报价 start*/
+.big_form_box{
+	width:494px;
+	margin-top: 20px;
+}
+.form_wrap_box{
+	width:100%;
+	border:3px solid #e63232;
+	padding: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.big_form_title{
+	color:#666;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.big_form_title>.num_color{
+	color:#e63232;
+}
+.big_select_box{
+	margin-right:-2px;
+}
+.big_select_box>select{
+	width:142px;
+	margin-right: 12px;
+}
+.form_bottom_adv{
+	display: inline-block;
+	color:#666;
+	word-wrap: break-word;
+	line-height: 21px;
+	margin-top: 20px;
+}
+.form_bottom_adv>i{
+	display: inline-block;
+	width:15px;
+	height:15px;
+	background:transparent url("../images/sjybj_icon.png") no-repeat scroll 0 0;
+	margin-right: 5px;
+	margin-bottom: -2px;
+}
+.form_bottom_adv>.word_color{
+	color:#e63232;
+}
+/*免费获取设计报价 end*/
+/*装修监理页面 start*/
+.acceptance{
+	width:1250px;
+	margin: 20px auto 0;
+}
+.acceptance>img{
+	display: block;
+	width:100%;
+	margin: 0 auto;
+}
+.server_box{
+	width:100%;
+	height:800px;
+	background: transparent url("../images/zxjl_bg.jpg") repeat scroll 0 0;
+	margin-top: 40px;
+}
+.service_content>div.service_title{
+	font-size: 24px;
+	color: #323232;
+	text-align: center;
+	font-weight: normal;
+	padding-top: 40px;
+}
+.service_content>h6{
+	color:#ff5555;
+	font-size:18px;
+	margin-top: 14px;
+	text-align: center;
+}
+.flow_nav{
+	width:1250px;
+	margin:0 auto;
+}
+.flow_path{
+	overflow: hidden;
+	margin:100px -42px 0;
+}
+.flow_path>li{
+	float:left;
+	width:138px;
+	height:138px;
+	background: transparent url("../images/zxlc_nav_bg.png") no-repeat scroll;
+	margin:0 42px;
+}
+.flow_path>li:hover{
+	opacity:0.6;
+}
+.flow_path>li.nav1{
+	background-position: 0 0;
+}
+.flow_path>li.nav2{
+	background-position:-140px 0 ;
+}
+.flow_path>li.nav3{
+	background-position:-280px 0 ;
+}
+.flow_path>li.nav4{
+	background-position:-420px 0 ;
+}
+.flow_path>li.nav5{
+	background-position:-560px 0 ;
+}
+.flow_path>li.nav6 {
+	background-position: -700px 0;
+}
+.flow_content>li{
+	width:1250px;
+	padding: 40px 57px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background:#FFF;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	margin-top: 48px;
+	position: relative;
+}
+.flow_content>li>i{
+	display: block;
+	width:25px;
+	height:16px;
+	background: transparent url("../images/zxlc_nav_bg.png") no-repeat scroll -840px 0;
+	position: absolute;
+	left:57px;
+	top:-16px;
+}
+.nav_content{
+	display: none;
+}
+.flow_content>.current_nav{
+	display: block;
+}
+.nav_content>h2{
+	color:#ff5555;
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.nav_content>h3{
+	font-size: 14px;
+	line-height: 24px;
+	color:#777777;
+	max-width: 560px;
+	overflow:hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	margin:0 auto;
+}
+.nav_content>h4{
+	font-size: 14px;
+	line-height: 24px;
+	color:#777777;
+	max-width: 1193px;
+	overflow:hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+.nav_content>h5{
+	font-size: 14px;
+	line-height: 24px;
+	color:#777777;
+	max-width: 1193px;
+	text-indent: 30px;
+	margin:0 auto;
+}
+.nav_content>h4>strong{
+	font-size: 14px;
+}
+.flow_box{
+	overflow:hidden;
+	margin:20px -10px 0;
+}
+.flow_box>li{
+	float:left;
+	width:210px;
+	height:32px;
+	line-height: 32px;
+	background: #ff5555;
+	color:#FFF;
+	margin:5px 10px;
+	text-align: center;
+}
+.flow_content>.nav2>i{
+	left:279px;
+}
+.flow_content>.nav3>i{
+	left:501px;
+}
+.flow_content>.nav4>i{
+	left:723px;
+}
+.flow_content>.nav5>i{
+	left:945px;
+}
+.flow_content>.nav6>i{
+	left:1167px;
+}
+.nav2>.flow_box>li{
+	background: #ffc74d;
+}
+.nav3>.flow_box>li{
+	background: #a2d961;
+}
+.nav4>.flow_box>li{
+	background: #6ac3be;
+}
+.nav5>.flow_box>li{
+	background: #6a8cd9;
+}
+.nav6>.flow_box>li{
+	background: #ad70dd;
+}
+/*装修监理页面 end*/

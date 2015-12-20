@@ -1,0 +1,212 @@
+.template_main{
+    width:1250px;
+    margin:0 auto;
+}
+.falls_title{
+    width:1248px;
+    border: 1px solid #ebebeb;
+    height:46px;
+    background:#f8f8f8;
+    margin-top: 20px;
+}
+.falls_title{
+    overflow: hidden;
+}
+.xgt_newest>a{
+    display: block;
+}
+.xgt_newest{
+    float:left;
+    width:78px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    border-right: 1px solid #ebebeb;
+}
+.falls_title>.cur_newext>a{
+    color:#e63232;
+}
+.xgt_search{
+    float:right;
+    width:240px;
+    height: 30px;
+    background: transparent url("../images/xgt_search_bg.png") no-repeat scroll 0% 0%;
+    margin: 8px 20px 0 0;
+    position: relative;
+}
+.xgt_search>input[type="text"].input_name{
+    display: block;
+    width:130px;
+    height: 27px;
+    border:medium none;
+    position: absolute;
+    left: 50px;
+    top:1px;
+    background: transparent;
+    z-index: 11;
+}
+.xgt_search>span{
+    color:#999999;
+    font-size: 12px;
+    position: absolute;
+    left: 50px;
+    top:8px;
+}
+.xgt_search>input[type="submit"].sub_refer{
+    display:block;
+    width:60px;
+    height: 30px;
+    border:medium none;
+    font-size: 14px;
+    cursor: pointer;
+    color:#FFF;
+    background: transparent;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/*主体图片展示部分 start*/
+.pictures_show{
+    overflow:hidden;
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: 1px dotted #eaeaea;
+}
+.left_img_box{
+    float:left;
+    width:272px;
+    height: 204px;
+    margin-right: 20px;
+}
+.right_content_box{
+    float:left;
+    width:608px;
+    height: 204px;
+    position: relative;
+}
+.style_description_box>.img_name{
+    padding: 10px 0;
+}
+.style_description_box>.img_name>a{
+    font-size: 18px;
+    color:#333;
+    margin-right: 15px;
+}
+.style_description_box>.img_name>span{
+    font-size: 12px;
+    color:#777;
+}
+.style_wrap{
+    width:100%;
+    overflow: hidden;
+}
+.style_wrap>li{
+    float:left;
+    width:33%;
+    font-size: 12px;
+    color: #555;
+    margin: 10px 0;
+}
+.style_wrap em{
+    font-weight: bold;
+    margin-right:10px;
+}
+
+.progress_bar{
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+}
+.step_box>ul{
+    height: 35px;
+    margin-top: 35px;
+}
+.step_box>ul>li{
+    float:left;
+    width:86px;
+    height:35px;
+    color:#555555;
+    background:transparent url("../images/xgt_icon.png") no-repeat scroll 0 -60px;
+    position: relative;
+}
+.step_box>ul>li.setp_first{
+    background-position:0 -100px;
+}
+.step_box>ul>li.setp_cur{
+    background-position:0 -140px;
+}
+.step_box>ul>li.setp_first>span.location_img{
+    display: block;
+    width:12px;
+    height:16px;
+    background:transparent url("../images/xgt_icon.png") no-repeat scroll 0 -380px;
+    position:absolute;
+    left: 16px;
+    top:-18px;
+    z-index: 111;
+}
+.step_box>ul>li>em.step_word{
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+.step_box>ul>li.setp_first>em.step_word>a,.step_box>ul>li.setp_cur>em.step_word>a{
+    color:#e63232;
+    font-size: 12px;
+}
+.right_button_wrap{
+    float:right;
+    text-align: center;
+    margin-top: 40px;
+}
+.view_btn{
+    padding: 10px 0;
+}
+.view_btn>a{
+    display: block;
+    width:160px;
+    height: 40px;
+    background: #f24e4e;
+    border-radius: 5px;
+    color:#FFF;
+    line-height: 40px;
+}
+.view_btn>a:hover{
+    background: #d62f2f;;
+}
+.view_btn>a>i{
+    display: inline-block;
+    width:12px;
+    height: 12px;
+    background: transparent url("../images/template.png") no-repeat scroll 0 -230px;
+    margin-right:6px;
+    vertical-align:middle;
+    margin-top: -4px;
+}
+/*主体图片展示部分 end*/
+/*底部分页部分 start*/
+.paging{
+    margin:60px 0 100px;
+    text-align: center;
+}
+.paging>a{
+    display: inline-block;
+    width:40px;
+    height:40px;
+    background:#FFF;
+    border:1px solid #eee;
+    color:#777;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 -2px;
+}
+.paging>a:hover,.paging>.cur_page{
+    background:#e63232;
+    color:#FFF;;
+}
+.next_page{
+    padding:0 15px 0 15px;
+}
+/*底部分页部分 end*/

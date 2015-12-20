@@ -1,0 +1,587 @@
+/*效果图图库案例 start*/
+.xgt_wrap{
+	width:1250px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.xgt_nav_tip{
+	width:100%;
+	line-height: 48px;
+	height:48px;
+}
+.current_position{
+	overflow: hidden;
+}
+.current_position>li{
+	float:left;
+}
+.current_position>li,.current_position>li>a,.current_position>li>span{
+	font-size: 12px;
+	color: #555555;
+	line-height: 48px;
+}
+.current_position>li.position>i{
+	display: inline-block;
+	width:13px;
+	height:13px;
+	background:transparent url("../images/xgt_icon.png") no-repeat scroll -280px 0;
+	margin:17px 6px 0 0;
+}
+.current_position>li.cur_pos>span{
+	font-weight: bold;
+	margin-right: 10px;
+}
+.current_position>li.ico_arrow>a{
+	float:left;
+}
+.current_position>li.ico_arrow>i{
+	float:right;
+	width:6px;
+	height:10px;
+	background:transparent url("../images/xgt_icon.png") no-repeat scroll -450px 0;
+	margin:19px 10px 0;
+}
+.current_position>li.border>a{
+	display: inline-block;
+	border: 1px solid #e63232;
+	height:18px;
+	margin:14px 10px 0 0;
+	cursor:pointer;
+	position: relative;
+}
+.current_position>li.border>a>span{
+	color:#e63232;
+	padding:0 6px;
+	line-height: 18px;
+}
+.current_position>li.border>a>i{
+	display: block;
+	width:7px;
+	height:7px;
+	background: transparent url("../images/xgt_icon.png") no-repeat scroll -300px 0;
+	margin:6px;
+}
+.current_position>li.repeal{
+	width:56px;
+	height: 20px;
+	line-height: 18px;
+	background: #e63232;
+	padding:0 7px;
+	margin-top: 14px;
+}
+.current_position>li.repeal>span{
+	display: inline-block;
+	color:#FFF;
+	line-height: 18px;
+	cursor: pointer;
+}
+.current_position>li.border>a>span{
+	float:left;
+	line-height: 18px;
+}
+.current_position>li.border>.repeal{
+	text-align: center;
+}
+.current_position>li.border>a>i{
+	float:right;
+}
+/*效果图部分*/
+/*内容部分*/
+/*侧边栏部分*/
+.right_side_box{
+	float:right;
+	width:288px;
+	position: relative;
+}
+/*表单控件再次使用的时候，需要另外给一个父级固定宽度*/
+/*表单申请部分start*/
+#form1{
+	width:288px;
+}
+.form_contron{
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid #e63232;
+	padding:17px;
+}
+.form_title{
+	color:#333333;
+	font-size: 18px;
+}
+.form_adv{
+	display: block;
+	font-size:12px;
+	color:#e63232;
+	margin-top: 9px;
+}
+.form_named,.form_call{
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #dddddd;
+	height:36px;
+	position: relative;
+	padding-left: 10px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.form_named>em,.form_call>em{
+	color:#999;
+	line-height: 36px;
+	font-size: 12px;
+	position: absolute;
+}
+.form_named>input,.form_call>input{
+	border: medium none;
+	color:#555;
+	height: 34px;
+	line-height: 34px;
+	font-size: 12px;
+	position: absolute;
+	top :0;
+	background:transparent;
+	width:100%;
+}
+.form_city{
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:20px 0 0 0;
+}
+.form_city>select{
+	float:left;
+	width:30%;
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	color:#737373;
+}
+.form_city>select.magin{
+	margin:0 5%;
+}
+.form_btn{
+	padding: 20px 0;
+	border-bottom: 1px solid #eee;
+}
+.form_btn>input[type="button"]{
+	border:medium none;
+	width:100%;
+	height:36px;
+	background: #e63232;
+	cursor: pointer;
+	font-size: 12px;
+	color:#FFF;
+}
+.form_btn>input[type="button"]:hover{
+	background:#D62F2F;
+}
+.form_list>li{
+	color: #999;
+	font-size: 12px;
+	list-style:square inside url("../images/list-style-type.png");
+	margin-top: 15px;
+}
+.form_list>li>span{
+	display: inline-block;
+	width:16px;
+	height:23px;
+	background: transparent url("../images/home_icos.png") no-repeat scroll -176px -260px;
+	line-height: 23px;
+	color: #FFF;
+	text-align: center;
+	margin: 0 1px;
+}
+.form_list>li>em{
+	font-size:14px;
+	font-weight: bold;
+	color:#e63232;
+}
+.form_list>li.item2{
+	font-size: 14px;
+}
+/*表单申请部分end*/
+/*下面部分代码不能重用*/
+/*最新发布招标部分 start*/
+#tender1,#tender3{
+	width:288px;
+	margin-top: 20px;
+}
+.tender_box{
+	width:100%;
+	border: 1px solid #ebebeb;
+	padding:17px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.tender_title{
+	font-size: 18px;
+	color:#333333;
+	border-left: 4px solid #e63232;
+	padding-left:7px;
+}
+.tender_line{
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border-bottom:1px solid #f0f0f0;
+	margin-top: 13px;
+}
+.detail_title{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.detail_title>li{
+	float:left;
+	color:#999;
+	font-size: 12px;
+	width:30%;
+	text-align: left;
+}
+.detail_title>li.title_middle{
+	margin:0 5% ;
+}
+.detail_content{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.detail_content>li.content_middle{
+	margin: 0 5%;
+}
+.detail_content>li{
+	float:left;
+	font-size: 12px;
+	color:#666;
+	width:30%;
+	text-align: left;
+}
+/*最新发布招标部分 end*/
+/*热门装修小区 start*/
+.plot{
+	margin:7px 0;
+}
+.plot>a:hover{
+	color:#e63232;
+}
+.plot>a>li{
+	list-style-position: inside;
+	list-style-image: url("../images/xgt_zjgd_list_style.png");
+	margin-top: 13px;
+}
+.plot>a>li>span{
+	float: right;
+	color: #999;
+	font-size: 12px;
+}
+/*热门装修小区 end*/
+.fishing_case{
+	width:288px;
+	margin-top: 20px;
+	padding:19px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #ebebeb;
+}
+.hot_title{
+	width:95%;
+	height: 18px;
+	line-height:18px;
+	font-size:18px;
+	color:#333333;
+	padding-left:5%;
+	background:transparent url("../images/xgt_hot_title.gif") no-repeat scroll 0% 0%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.hot_list>dt{
+	margin-top: 20px;
+}
+.hot_list>dt>a{
+	width:248px;
+	height: 186px;
+	display: block;
+}
+.hot_list>dt>a>img{
+	display: block;
+	width:100%;
+}
+.hot_item{
+	overflow: hidden;
+	text-align: center;
+	margin-top:20px;
+	padding-bottom: 33px;
+	border-bottom:1px dotted #8bc357;
+}
+.hot_item:last-child{
+	border-bottom:none;
+}
+.hot_item>span{
+	float:left;
+	width:18px;
+	height:18px;
+	background:#e63232;
+	color: #FFF;
+	line-height: 18px;
+}
+.hot_item>strong{
+	float:left;
+	margin:1px 0 0 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.hot_item>strong>a{
+	display: block;
+	font-size: 14px;
+	width:144px;
+	color:#555555;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.hot_item>em{
+	float:right;
+	padding-left: 18px;
+	background:transparent url("../images/xgt_icon.png") no-repeat scroll -200px 1px;
+}
+.hot_list .current_sel>span{
+	background:#8bc357;
+}
+.hot_list .current_sel>em{
+	background-position:-240px 1px;
+}
+/*热门装修小区 end*/
+/***********************************************************在建工地内页部分*********************************************************************************/
+.zjgd_content{
+	overflow: hidden;
+}
+.left_main_box{
+	float:left;
+	width:940px;
+	border:1px solid #ebebeb;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow:hidden;
+	padding-bottom: 19px;
+}
+.top_conetnt{
+	width:100%;
+	padding:18px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.content{
+	padding-bottom: 18px;
+	margin-bottom: 20px;
+	border-bottom:1px dotted #e6e6e6;
+}
+.content_title{
+	height: 20px;
+	line-height: 20px;
+	font-size: 20px;
+}
+.content_title>.tip_right{
+	float:right;
+	color:#999999;
+	font-size: 14px;
+}
+.content_title>.tip_right>i{
+	display: inline-block;
+	width:12px;
+	height: 16px;
+	background: transparent url("../images/zxgs_icos.png") no-repeat scroll -110px 0;
+	margin-bottom: -14px;
+}
+.style_area{
+	overflow: hidden;
+	color:#777777;
+}
+.style_area>.left_area{
+	float: left;
+	padding: 20px 0;
+	width:715px;
+	border-bottom:1px dotted #e5e5e5;
+}
+.left_area>em{
+	color:#555555;
+	font-weight: bold;
+}
+.right_area{
+	float:right;
+}
+.right_area>button{
+	width:144px;
+	height:36px;
+	background: #f24e4e;
+	line-height: 36px;
+	text-align: center;
+	color:#FFF;
+	font-size: 14px;
+	border-radius:4px;
+	border:medium none;
+	margin-top: 20px;
+}
+.right_area>button:hover{
+	background: #d62f2f;
+}
+.idea{
+	color:#777777;
+	font-size: 12px;
+	margin:20px 0;
+}
+.idea>em{
+	color:#555555;
+	font-weight: bold;
+	font-size: 12px;
+}
+.team{
+	overflow: hidden;
+}
+.team>li{
+	float:left;
+	text-align: center;
+	margin:0 15px;
+}
+.team>li>a{
+	cursor: default;
+	width:60px;
+	height:60px;
+	overflow: hidden;
+}
+.team>li>span{
+	display: block;
+	font-size:12px;
+	color:#555555;
+	margin-top: 10px;
+}
+.team>.team_title{
+	margin: 24px 0 0 0;
+}
+.team>li>em{
+	color:#555555;
+	font-weight: bold;
+	font-size: 12px;
+}
+/*百度分享 start*/
+#share{
+	overflow: hidden;
+}
+.share_box{
+	float:right;
+}
+.share_tip{
+	float:left;
+	color:#999;
+	line-height: 28px;
+	margin-right: 2px;
+}
+/*百度分享 end*/
+.title_bg{
+	height: 73px;
+	padding-left:28px;
+	line-height: 73px;
+	background: transparent url("../images/title.png") no-repeat scroll 0 0;
+	color:#999;
+	font-size: 12px;
+	margin:0 20px 0 9px;
+}
+.title_bg>em{
+	color:#333;
+	font-size: 16px;
+	margin-right: 6px;
+}
+.title_bg>span{
+	float:right;
+}
+.main_body{
+	padding-left: 20px;
+}
+.main_body>.pictures_box{
+	padding:9px 19px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-left:1px dotted #f46f6f;
+}
+.pictures_box>a{
+	width:100%;
+	height: auto;
+	display: block;
+	overflow: hidden;
+	cursor: default;
+}
+.pictures_box>a>img{
+	width:100%;
+}
+.city_container>.city_title{
+	line-height:52px;
+	color:#333;
+	font-size: 24px;
+	margin-top: 25px;
+	border-bottom: 1px solid #ebebeb;
+}
+.same_box{
+	overflow:hidden;
+	margin-right: -20px;
+	margin-bottom: 148px;
+}
+.same_box>.same_item{
+	float:left;
+	width:295px;
+	height:295px;
+	overflow: hidden;
+	border:1px solid #ebebeb;
+	margin-right: 20px;
+}
+.same_item>li>a>img{
+	display: block;
+	width:100%;
+}
+.city_name{
+	overflow: hidden;
+	padding:14px;
+}
+.city_name>em{
+	float:left;
+	color:#333;
+	font-size: 14px;
+	font-weight: bold;
+}
+.city_name>span{
+	float:right;
+	color:#999;
+	font-size: 12px;
+}
+.city_style{
+	overflow: hidden;
+	padding: 0 14px;
+}
+.city_style>em{
+	color:#999999;
+	float:left;
+}
+.city_style>span{
+	float:right;
+	color: #e63232;
+}
+

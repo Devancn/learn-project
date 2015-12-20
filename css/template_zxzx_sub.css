@@ -1,0 +1,707 @@
+.template_main{
+    width:1250px;
+    margin:0 auto;
+}
+/*效果图图库案例 start*/
+.xgt_wrap{
+    width:1250px;
+    margin:0 auto;
+    overflow: hidden;
+}
+/*效果图部分*/
+/*面包屑导航部分 start*/
+.top_position{
+    width:100%;
+}
+.current_position{
+    overflow: hidden;
+    width:1250px;
+    margin: 0 auto;
+}
+.current_position>li{
+    float:left;
+}
+.current_position>li,.current_position>li>a,.current_position>li>span{
+    font-size: 12px;
+    color: #555555;
+    line-height: 48px;
+}
+.current_position>li.position>i{
+    display: inline-block;
+    width:13px;
+    height:13px;
+    background:transparent url("../images/xgt_icon.png") no-repeat scroll -280px 0;
+    margin:17px 6px 0 0;
+}
+.current_position>li.cur_pos>span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.current_position>li.ico_arrow>a{
+    float:left;
+}
+.current_position>li.ico_arrow>i{
+    float:right;
+    width:6px;
+    height:10px;
+    background:transparent url("../images/xgt_icon.png") no-repeat scroll -450px 0;
+    margin:19px 10px 0;
+}
+.current_position>li.border>a{
+    display: inline-block;
+    border: 1px solid #e63232;
+    height:18px;
+    margin:14px 10px 0 0;
+    cursor:pointer;
+    position: relative;
+}
+.current_position>li.border>a>span{
+    color:#e63232;
+    padding:0 6px;
+    line-height: 18px;
+}
+.current_position>li.border>a>i{
+    display: block;
+    width:7px;
+    height:7px;
+    background: transparent url("../images/xgt_icon.png") no-repeat scroll -300px 0;
+    margin:6px;
+}
+.current_position>li.repeal{
+    width:56px;
+    height: 20px;
+    line-height: 18px;
+    background: #e63232;
+    padding:0 7px;
+    margin-top: 14px;
+}
+.current_position>li.repeal>span{
+    display: inline-block;
+    color:#FFF;
+    line-height: 18px;
+    cursor: pointer;
+}
+.current_position>li.border>a>span{
+    float:left;
+    line-height: 18px;
+}
+.current_position>li.border>.repeal{
+    text-align: center;
+}
+/*面包屑导航部分 end*/
+/*主体部分 start*/
+.zjgd_content{
+    overflow:hidden;
+}
+/*主体部分 end*/
+/*侧边栏部分*/
+.right_side_box{
+    float:right;
+    width:268px;
+    position: relative;
+}
+/*表单控件再次使用的时候，需要另外给一个父级固定宽度*/
+/*表单申请部分start*/
+#form1{
+    width:268px;
+    margin-top: 0;
+}
+.form_contron{
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid #e63232;
+    padding:17px;
+}
+.form_title{
+    color:#333333;
+    font-size: 18px;
+}
+.form_adv{
+    display: block;
+    font-size:12px;
+    color:#e63232;
+    margin-top: 9px;
+}
+.form_named,.form_call{
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    height:36px;
+    position: relative;
+    padding-left: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.form_named>em,.form_call>em{
+    color:#999;
+    line-height: 36px;
+    font-size: 12px;
+    position: absolute;
+}
+.form_named>input,.form_call>input{
+    border: medium none;
+    color:#555;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    position: absolute;
+    top :0;
+    background:transparent;
+    width:100%;
+}
+.form_city{
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:20px 0 0 0;
+}
+.form_city>select{
+    float:left;
+    width:30%;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    color:#737373;
+}
+.form_city>select.magin{
+    margin:0 5%;
+}
+.form_btn{
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+.form_btn>input[type="button"]{
+    border:medium none;
+    width:100%;
+    height:36px;
+    background: #e63232;
+    cursor: pointer;
+    font-size: 12px;
+    color:#FFF;
+}
+.form_btn>input[type="button"]:hover{
+    background:#D62F2F;
+}
+.form_list>li{
+    color: #999;
+    font-size: 12px;
+    list-style:square inside url("../images/list-style-type.png");
+    margin-top: 15px;
+}
+.form_list>li>span{
+    display: inline-block;
+    width:16px;
+    height:23px;
+    background: transparent url("../images/home_icos.png") no-repeat scroll -176px -260px;
+    line-height: 23px;
+    color: #FFF;
+    text-align: center;
+    margin: 0 1px;
+}
+.form_list>li>em{
+    font-size:14px;
+    font-weight: bold;
+    color:#e63232;
+}
+.form_list>li.item2{
+    font-size: 14px;
+}
+/*表单申请部分end*/
+/*下面部分代码不能重用*/
+/*最新发布招标部分 start*/
+#tender1,#tender2,#tender3{
+    width:268px;
+    margin-top: 20px;
+}
+.tender_box{
+    width:100%;
+    border: 1px solid #ebebeb;
+    padding:17px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tender_title{
+    font-size: 18px;
+    color:#333333;
+    border-left: 4px solid #e63232;
+    padding-left:7px;
+}
+.tender_line{
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom:1px solid #f0f0f0;
+    margin-top: 13px;
+}
+.detail_title{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.detail_title>li{
+    float:left;
+    color:#999;
+    font-size: 12px;
+    width:30%;
+    text-align: left;
+}
+.detail_title>li.title_middle{
+    margin:0 5% ;
+}
+.detail_content{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.detail_content>li.content_middle{
+    margin: 0 5%;
+}
+.detail_content>li{
+    float:left;
+    font-size: 12px;
+    color:#666;
+    width:30%;
+    text-align: left;
+}
+/*最新发布招标部分 end*/
+/*热门装修公司部分 start*/
+.detail_item{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.company_img{
+    float:left;
+    width:80px;
+    height:60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border:1px solid #f3f3f3;
+    position: relative;
+}
+.company_img>a>img{
+    position: absolute;
+    margin: auto;
+    left:0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+.img_describe{
+    float:left;
+    width:128px;
+    height:60px;
+    margin-left: 20px;
+}
+.img_describe>h3>a{
+    color: #333333;
+    font-weight: bold;
+    font-size: 12px;
+}
+.img_describe>span{
+    display: block;
+    color:#999;
+    font-size: 12px;
+    margin: 7px 0;
+}
+.img_describe>em{
+    color:#999;
+    font-size: 12px;
+    width:148px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+}
+/*热门装修公司部分 end*/
+/*热门装修小区 start*/
+.plot{
+    margin:7px 0;
+}
+.plot>a:hover{
+    color:#e63232;
+}
+.plot>a>li{
+    list-style-position: inside;
+    list-style-image: url("../images/xgt_zjgd_list_style.png");
+    margin-top: 13px;
+}
+.plot>a>li>span{
+    float: right;
+    color: #999;
+    font-size: 12px;
+}
+/*热门装修案例 end*/
+.fishing_case{
+    width:268px;
+    margin-top: 20px;
+    padding:19px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb;
+}
+.hot_title{
+    width:95%;
+    height: 18px;
+    line-height:18px;
+    font-size:18px;
+    color:#333333;
+    padding-left:5%;
+    background:transparent url("../images/xgt_hot_title.gif") no-repeat scroll 0% 0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.process_box{
+    width:100%;
+    margin-top: 6px;
+}
+.process>li{
+    line-height: 22px;
+    width:100%;
+    box-sizing: border-box;
+    margin-top: 14px;
+}
+.process>li>a{
+    float: right;
+    width:190px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color:#555555;
+}
+.process>li>a:hover{
+    color:#e63232;
+}
+.process>li>span{
+    display: inline-block;
+    width:22px;
+    height:22px;
+    background: #bfbfbf;
+    vertical-align: bottom;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 22px;
+    color:#FFF;
+    font-weight: bold;
+}
+.process_box>.orange>li>span{
+    background:#ffbf00;
+}
+/*热门装修案例 end*/
+/*左边主体部分 start*/
+.left_main_box{
+    float:left;
+    width:960px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main_box{
+    padding:40px 0 40px 40px;
+    border:1px solid #ebebeb;
+}
+.article_title>h1{
+    font-size: 24px;
+    color:#333;
+}
+.title_tip{
+    width:880px;
+    color:#999999;
+    font-size: 12px;
+    line-height: 14px;
+    margin:18px 0;
+    overflow: hidden;
+}
+.left_tip{
+    float:left;
+}
+.right_tip{
+    float: right;
+}
+.bdsharebuttonbox{
+    float: right;
+}
+.introduction>i{
+    display: inline-block;
+    width:42px;
+    height:22px;
+    background: url("../images/zxzx.png") no-repeat scroll -360px 0;
+    text-align: center;
+    line-height: 22px;
+    color:#FFF;
+    padding-right: 8px;
+    margin-right: 10px;
+}
+.introduction{
+    width:880px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 52px;
+    height:52px;
+    color:#999999;
+    background: #f5f5f5;
+    padding-left: 15px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.img_box{
+    max-width:100%;
+}
+.article_main>h2{
+    text-indent: 28px;
+    line-height:25px;
+    color: #555;
+    margin: 20px 0;
+    width:880px;
+}
+.footer_tip{
+    text-align: center;
+    margin:40px 0;
+}
+.footer_tip>a{
+    display: inline-block;
+    color:#999999;
+    width:60px;
+    padding-top: 62px;
+    background: url("../images/zxzx.png") no-repeat scroll;
+    font-size: 12px;
+    margin:0 50px;
+}
+.footer_tip>a.support{
+    background-position: 0 -40px;
+}
+.footer_tip>a.collect{
+    background-position: -110px -40px;
+}
+.mark_box>li.label{
+    float:left;
+    color:#555;
+}
+.mark_box{
+    overflow: hidden;
+}
+.mark_box>li.label>i{
+    display: inline-block;
+    width:12px;
+    height:12px;
+    background:transparent url("../images/mark_bg.png") no-repeat scroll 0 0;
+    margin-right: 10px;
+}
+.mark_box>li.sharebox2{
+    float:right;
+}
+.extra_box{
+    width:100%;
+    height:48px;
+    line-height: 48px;
+    color:#555;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border:1px solid #ebebeb;
+    background: #f8f8f8;
+    margin:20px 0;
+}
+.extra_box{
+    overflow: hidden;
+    color:#555;
+}
+.previous_posts{
+    float:left;
+}
+.extra_box i{
+    display: inline-block;
+    width:5px;
+    height:9px;
+    background: transparent url("../images/zxzx.png") no-repeat scroll;
+}
+.previous_posts>i{
+    background-position:0 -130px;
+    margin:0 15px 0 19px;
+}
+.next_chapter>i{
+    background-position:-20px -130px;
+    margin:0 19px 0 15px;
+}
+.extra_box a{
+    color:#555;
+}
+.extra_box a:hover{
+    color:#e63232;
+}
+.extra_box a.prev,.extra_box a.next{
+    color:#999;
+}
+.next_chapter{
+    float:right;
+}
+/*相关推荐 start*/
+.recommend{
+    width:100%;
+    padding-left: 19px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border:1px solid #ebebeb;
+}
+.recommend>h1{
+    color:#333;
+    border-left: 4px solid #e63232;
+    font-size: 18px;
+    height:18px;
+    line-height:18px;
+    margin:14px 0;
+    padding-left:20px;
+}
+.recommend_content{
+    overflow: hidden;
+    padding:20px 10px;
+    border:1px solid #ebebeb;
+    border-top:none;
+}
+.recommend_lists{
+    width:294px;
+    margin:0 9px;
+    float:left;
+}
+.recommend_img_box{
+    width:294px;
+    height:220px;
+    overflow: hidden;
+}
+.img_box>a>img{
+    display: inline-block;
+}
+.recommend_img_box>a{
+    display: block;
+    position: relative;
+}
+.recommend_img_box>a>h2{
+    height:30px;
+    line-height: 30px;
+    width:100%;
+    text-align: center;
+    color:#FFF;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background: rgba(0,0,0,0.7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7f000000,endcolorstr=#7f000000);
+}
+.recommend_detail{
+    margin-top: 10px;
+}
+.recommend_detail>li{
+    margin:12px 0;
+    list-style-image: url("../images/xgt_zjgd_list_style.png");
+    list-style-position: inside;
+}
+.recommend_detail>li>a{
+    display: inline-block;
+    color:#555;
+    font-size: 12px;
+    max-width:220px;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+.recommend_detail>li>a:hover{
+    color:#e63232;
+}
+/*相关推荐 end*/
+/*图库案例 start*/
+.gallery_box{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.atlas_case{
+    overflow: hidden;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border:1px solid #ebebeb;
+    padding:10px 8px;
+    border-top-width:0;
+}
+.list_case{
+    float:left;
+}
+.list_case>li{
+    margin:10px;
+    float:left;
+}
+.list_case>li>a{
+    display: inline-block;
+    width:215px;
+    height:160px;
+    overflow: hidden;
+    position: relative;
+}
+.list_case>li>a>h4{
+    font-size: 12px;
+    color:#FFF;
+    text-align: center;
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    background:rgba(0,0,0,0.7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7f000000,endcolorstr=#7f000000);
+    height:30px;
+    line-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:0 10px;
+}
+.list_case>li>a>img{
+    -webkit-transition:all 1.5s ease 0s;
+    -moz-transition:all 1.5s ease 0s;
+    -o-transition:all 1.5s ease 0s;
+    transition:all 1.5s ease 0s;
+    transform-origin:center center;
+}
+.list_case>li>a>img:hover{
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    transform:scale(1.5);
+}
+/*图库案例 end*/
+/*左边主体部分 end*/

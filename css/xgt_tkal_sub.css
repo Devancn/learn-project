@@ -1,0 +1,90 @@
+/*顶部部分 start*/
+.full_top{
+    width:100%;
+    padding:0 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 40px;
+    height:40px;
+    background: #f7eed6;
+}
+.full_left{
+    float:left;
+    margin:0 -10px;
+}
+.full_left>li{
+    float:left;
+    margin: 0 10px;
+    color:#555;
+    font-size: 12px;
+}
+.full_left>.logo_box{
+    margin-top: 5px;
+}
+.nav_xgt{
+    cursor: default;
+    width:70px;
+    text-align: center;
+    position: relative;
+}
+.nav_xgt:hover .sub_nav{
+    display: block;
+}
+.nav_xgt>em{
+    color:#e63232;
+    font-size: 12px;
+    line-height: 40px;
+}
+.nav_xgt>em>i{
+    display: inline-block;
+    width:9px;
+    height:5px;
+    background: transparent url("../images/xgt_tkal_sub.png") no-repeat scroll 0 0;
+    margin:0 -0 0 6px;
+    vertical-align: middle;
+}
+.sub_nav{
+    width:100%;
+    border:1px solid #e63232;
+    background: #FFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left:0;
+    top:0;
+    display:none;
+}
+.sub_nav>.nv_xgt_2>em{
+    cursor: default;
+    width:70px;
+    text-align: center;
+    color:#e63232;
+}
+.sub_nav>.nv_xgt_2>em>i{
+    display: inline-block;
+    width:9px;
+    height:5px;
+    background: transparent url("../images/xgt_tkal_sub.png") no-repeat scroll -19px 0;
+    margin:0 -0 0 6px;
+    vertical-align: middle;
+}
+.sub_nav>li>a{
+    color:#888888;
+    font-size: 12px;
+}
+.full_right{
+    float:right;
+}
+.full_right>li{
+    float:left;
+    color:#888;
+}
+.full_right>li>a{
+    color:#888;
+}
+.sanme_color>span{
+    color:#e63232;
+}
+/*顶部部分 start*/

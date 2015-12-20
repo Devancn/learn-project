@@ -1,0 +1,238 @@
+/*顶部部分 start*/
+.template_maxbox{
+    background: #f7eed6;
+}
+.full_top{
+    width: 1250px;;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 40px;
+    height:40px;
+    margin:0 auto;
+}
+.full_left{
+    float:left;
+    margin:0 -10px;
+}
+.full_left>li{
+    float:left;
+    margin: 0 10px;
+    color:#555;
+    font-size: 12px;
+}
+.full_left>.logo_box{
+    margin-top: 5px;
+}
+.nav_xgt{
+    cursor: default;
+    width:70px;
+    text-align: center;
+    position: relative;
+}
+.nav_xgt:hover .sub_nav{
+    display: block;
+}
+.nav_xgt>em{
+    color:#e63232;
+    font-size: 12px;
+    line-height: 40px;
+}
+.nav_xgt>em>i{
+    display: inline-block;
+    width:9px;
+    height:5px;
+    background: transparent url("../images/xgt_tkal_sub.png") no-repeat scroll 0 0;
+    margin:0 -0 0 6px;
+    vertical-align: middle;
+}
+.sub_nav{
+    width:100%;
+    border:1px solid #e63232;
+    background: #FFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left:0;
+    top:0;
+    display:none;
+    z-index: 99999;
+}
+.sub_nav>.nv_xgt_2>em{
+    cursor: default;
+    width:70px;
+    text-align: center;
+    color:#e63232;
+}
+.sub_nav>.nv_xgt_2>em>i{
+    display: inline-block;
+    width:9px;
+    height:5px;
+    background: transparent url("../images/xgt_tkal_sub.png") no-repeat scroll -19px 0;
+    margin:0 -0 0 6px;
+    vertical-align: middle;
+}
+.sub_nav>li>a{
+    color:#888888;
+    font-size: 12px;
+}
+.full_right{
+    float:right;
+}
+.full_right>li{
+    float:left;
+    color:#888;
+}
+.full_right>li>a{
+    color:#888;
+}
+.sanme_color>span{
+    color:#e63232;
+}
+/*顶部部分 start*/
+/*装修公司logo部分 start*/
+.temp_header_box{
+    width:1250px;
+    height:105px;
+    margin: 0 auto;
+    position: relative;
+}
+.tem_item_log{
+    background: url("../images/template.png") no-repeat scroll 0 -60px;
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding-top: 1px;
+}
+.temp_header_log{
+    width:206px;
+    height:126px;
+    left: 0;
+    top: 18px;
+    position: absolute;
+}
+.temp_header_name{
+    position: absolute;
+    left: 221px;
+    top:27px;
+}
+.temp_header_name>.title>h1{
+    display: inline-block;
+    color:#333;
+    font-size: 21px;
+}
+.temp_header_name>.title>i{
+    display: inline-block;
+    width:44px;
+    height:20px;
+    margin-left: 10px;
+    background: transparent url("../images/template.png") no-repeat scroll 0 0;
+}
+.temp_header_addr{
+    position: absolute;
+    left:221px;
+    bottom: 20px;
+}
+.temp_header_addr i.pos{
+    display: inline-block;
+    width:10px;
+    height:13px;
+    background:transparent url("../images/template.png") no-repeat scroll -50px 0;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.temp_header_addr em{
+    color:#777777;
+    font-size: 12px;
+}
+.temp_header_addr i.tel{
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    background: transparent url("../images/template.png") no-repeat scroll -70px 0;
+    vertical-align: bottom;
+    margin: 0 5px 0 30px;
+}
+.temp_header_addr>li>a.online{
+    display: inline-block;
+    width:75px;
+    height:17px;
+    background: transparent url("../images/template.png") no-repeat scroll 0 -30px;
+    margin-left: 30px;
+}
+/*百度分享 start*/
+/*#share{*/
+/*overflow: hidden;*/
+
+/*}
+*/
+.share_box{
+    position: absolute;
+    float:right;
+    right: 0;
+    bottom:20px;
+}
+.share_tip{
+    float:left;
+    color:#999;
+    line-height: 28px;
+    margin-right: 2px;
+}
+#share a{
+    display: inline-block;
+    margin:5px 10px 0 10px;
+}
+/*百度分享 end*/
+/*装修公司logo部分 end*/
+/*顶部主导航部分 start*/
+.temp_header_menu{
+    width:100%;
+    height: 40px;
+    background: #3c3c3c;
+}
+.temp_nav_box{
+    width:1250px;
+    margin:0 auto;
+    height: 40px;
+    position: relative;
+}
+.menu_nav_box{
+    margin-left: 205px;
+}
+.menu_nav_box>li{
+    float:left;
+    height: 40px;
+}
+.menu_nav_box>li.current_on{
+    background: #f24e4e;
+}
+.menu_nav_box>li>a{
+    width:106px;
+    height: 40px;
+    line-height:40px;
+    display: inline-block;
+    color:#FFF;
+    text-align: center;
+}
+.free_design{
+    width:150px;
+    height:45px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ff7f00;
+    color:#FFF;
+    text-align: center;
+    line-height: 45px;
+}
+.free_design>i{
+    display: inline-block;
+    border-bottom:5px solid  #995200;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
+/*顶部主导航部分 end*/
